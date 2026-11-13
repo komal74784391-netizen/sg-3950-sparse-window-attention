@@ -1,0 +1,12 @@
+seed: 11
+model:
+  hidden_size: 768
+  num_heads: 12
+  window_size: 256
+  num_layers: 12
+train:
+  batch_size: 32
+  learning_rate: 0.0002
+  epochs: 30
+data:
+  max_length: 4096
